@@ -94,14 +94,14 @@ body {
   line-height: 21px;
 }
 .banner {
-  width: 1280px;
+  width: 100%;
   height: 50px;
   justify-content: center;
   align-items: center;
   display: block;
 }
 .innerbanner {
-  width: 1280px;
+  width: 100%;
   height: 50px;
   grid-column-gap: 80px;
   grid-row-gap: 80px;
@@ -329,7 +329,13 @@ body {
   border: none;
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* .thambo{
+  width: 100%;
+} */
 .trusted-by {
   width: 100%;
   height: 110px;
@@ -353,8 +359,11 @@ body {
   height: max-content;
   background-color: red;
 }
+.home-page-logos-section{
+  display: none;
+}
 .newdevsection {
-  width: 1280px;
+  width: 100%;
   height: 810px;
   background-color: #22272e;
   max-height: none;
@@ -371,7 +380,7 @@ body {
   left: auto;
 }
 .devintegrate1 {
-  width: 1280px;
+  width: 100%;
   height: 810px;
   /* background-color: #22272E; */
   /* margin: 0px 10px; */
@@ -707,10 +716,7 @@ body {
   height: 14px;
   background-color: #fff;
   border-radius: 14px;
-  /* border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    border-bottom-right-radius: 14px;
-    border-bottom-left-radius: 14px; */
+  
 }
 .text-block-46 {
   width: 103.27px;
@@ -729,12 +735,12 @@ body {
 }
 
 .devintegrate2 {
-  width: 1280px;
+  width: 100%;
   height: 3550px;
   background-color: white;
 }
 .devintegrateinner {
-  width: 1280px;
+  width: 100%;
   height: 1040px;
   margin-top: 195px;
 
@@ -748,7 +754,7 @@ body {
   }
 }
 .devworkflow {
-  width: 1280px;
+  width: 100%;
   height: 810px;
   margin: 90px 0px 0px;
   display: flex;
@@ -899,7 +905,7 @@ body {
   }
 }
 .deveffortless {
-  width: 1280px;
+  width: 100%;
   height: 270px;
   margin: 186px 0px 0px;
   display: flex;
@@ -924,7 +930,7 @@ body {
   }
 }
 .devpayroll {
-  width: 1280px;
+  width: 100%;
   height: 623px;
   color: #a9afbc;
   background-color: white;
@@ -1119,7 +1125,7 @@ body {
 }
 
 .devmediaoutlet {
-  width: 1280px;
+  width: 100%;
   height: 72px;
   margin: 40px 0px 0px;
   padding: 10px 0px 10px 30px;
@@ -1272,7 +1278,7 @@ body {
 }
 
 .footerwrap {
-  width: 1280px;
+  width: 100%;
   height: 1260px;
 }
 .footerwrapinner {
@@ -1384,7 +1390,7 @@ body {
   }
 }
 .footerwrapinner2 {
-  width: 1280px;
+  width: 100%;
   height: 920px;
 }
 .lastfooter1 {
@@ -1429,14 +1435,14 @@ body {
   }
 }
 .lastfooter2 {
-  width: 1280px;
+  width: 100%;
   height: 698px;
   border-top: 1px solid #aabdce;
   margin-top: 0;
   padding-top: 109px;
 }
 .footer2inner {
-  width: 1280px;
+  width: 100%;
   height: 588px;
   padding-left: 15px;
   padding-right: 15px;
@@ -1640,7 +1646,7 @@ body {
   line-height: 24px;
 }
 .footerinfo {
-  width: 1230px;
+  width: 100%;
   height: 24px;
   display: flex;
   justify-content: space-between;
@@ -1691,6 +1697,7 @@ body {
 .flagsimagelist {
   width: 359px;
   height: 20px;
+  background-color: navajowhite;
   display: flex;
   justify-content: space-around;
   position: absolute;
@@ -1700,7 +1707,7 @@ body {
   height: 20px;
 }
 .footerbottom {
-  width: 1230px;
+  width: 100%;
   height: 73.26px;
   border-top: 3px solid #aabdce82;
   display: flex;
@@ -1814,14 +1821,14 @@ body {
     line-height: 21px;
   }
   .banner {
-    width: 1280px;
+    width: 100%;
     height: 50px;
     justify-content: center;
     align-items: center;
     display: none;
   }
   .innerbanner {
-    width: 1280px;
+    width: 100%;
     height: 50px;
     grid-column-gap: 80px;
     grid-row-gap: 80px;
@@ -2057,6 +2064,9 @@ body {
     font-family: "Outfit", sans-serif;
     font-size: 15px;
     margin-top: 50px;
+  }
+  .thambo{
+    display: none;
   }
   .trusted-by {
     width: 100%;
@@ -3440,7 +3450,7 @@ body {
     line-height: 24px;
   }
   .footerinfo {
-    width: 1230px;
+    width: 100%;
     height: 24px;
     display: flex;
     justify-content: space-between;
@@ -3488,7 +3498,7 @@ body {
     overflow: hidden;
     background-attachment: scroll !important;
   }
-  .flagsimagelist {
+  /* .flagsimagelist {
     width: 359px;
     height: 20px;
     display: flex;
@@ -3498,9 +3508,9 @@ body {
   .footslide {
     width: 20px;
     height: 20px;
-  }
+  } */
   .footerbottom {
-    width: 1230px;
+    width: 100%;
     height: 73.26px;
     border-top: 3px solid #aabdce82;
     display: flex;
